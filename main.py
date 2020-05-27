@@ -78,10 +78,10 @@ canvas1=canvasright.create_image(20,10,anchor=NW, image=photo)
 rightframe.pack(side=RIGHT)
     
 #buttons
-Bt1=Button(bottomframe,text="Capture Image 1",background="LightBlue", bd=0,width=15,height=1,command=browseimage_left)
+Bt1=Button(bottomframe,text="Capture Left Image",background="LightBlue", bd=0,width=15,height=1,command=browseimage_left)
 Bt1.pack(fill=X,pady=10)
 
-Bt2=Button(bottomframe,text="Capture Image 2",background="LightBlue", bd=0,width=15,height=1,command=browseimage_right)
+Bt2=Button(bottomframe,text="Capture Right Image",background="LightBlue", bd=0,width=15,height=1,command=browseimage_right)
 Bt2.pack(fill=X,pady=10)
 
 Bt3=Button(bottomframe,text="Panorama",background="LightBlue", bd=0,width=15,height=1,command=panorama)
