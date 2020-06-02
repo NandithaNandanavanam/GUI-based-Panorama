@@ -1,5 +1,5 @@
 # GUI-based-Panorama
-Installation packages
+Install packages
 ```
 tkinter
 cv2
